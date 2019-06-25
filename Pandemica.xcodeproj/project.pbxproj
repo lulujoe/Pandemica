@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1134FFBF22AEBA48003CE711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1134FFBE22AEBA48003CE711 /* AppDelegate.swift */; };
+		1134FFC122AEBA48003CE711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1134FFC022AEBA48003CE711 /* ViewController.swift */; };
+		1134FFC422AEBA48003CE711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1134FFC222AEBA48003CE711 /* Main.storyboard */; };
+		1134FFC622AEBA49003CE711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1134FFC522AEBA49003CE711 /* Assets.xcassets */; };
+		1134FFC922AEBA49003CE711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1134FFC722AEBA49003CE711 /* LaunchScreen.storyboard */; };
+		1134FFD322AEF1BC003CE711 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1134FFD222AEF1BC003CE711 /* SecondPage.swift */; };
+		115D865522BBE7F90093D3E1 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D865422BBE7F90093D3E1 /* ThirdPage.swift */; };
+		11C0EA3022BBE22500DD2219 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 11C0EA2F22BBE22500DD2219 /* Podfile */; };
+		B7BF1C18F03A4509B076439B /* Pods_Pandemica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D90A9B3105A6B669DA0C7AB /* Pods_Pandemica.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1134FFBB22AEBA48003CE711 /* Pandemica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pandemica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1134FFBE22AEBA48003CE711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1134FFC022AEBA48003CE711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1134FFC322AEBA48003CE711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1134FFC522AEBA49003CE711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1134FFC822AEBA49003CE711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1134FFCA22AEBA49003CE711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1134FFD222AEF1BC003CE711 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		115D865422BBE7F90093D3E1 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
+		11C0EA2F22BBE22500DD2219 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D90A9B3105A6B669DA0C7AB /* Pods_Pandemica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pandemica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BD4D00A6D282CD8966EA06 /* Pods-Pandemica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pandemica.release.xcconfig"; path = "Target Support Files/Pods-Pandemica/Pods-Pandemica.release.xcconfig"; sourceTree = "<group>"; };
+		EAA9ABD60169D49EC9696F12 /* Pods-Pandemica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pandemica.debug.xcconfig"; path = "Target Support Files/Pods-Pandemica/Pods-Pandemica.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1134FFB822AEBA48003CE711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BF1C18F03A4509B076439B /* Pods_Pandemica.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1134FFB222AEBA48003CE711 = {
+			isa = PBXGroup;
+			children = (
+				11C0EA2F22BBE22500DD2219 /* Podfile */,
+				1134FFBD22AEBA48003CE711 /* Pandemica */,
+				1134FFBC22AEBA48003CE711 /* Products */,
+				F69121695010BDB585628BBA /* Pods */,
+				D967F08C75FB4414D2A4DE98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1134FFBC22AEBA48003CE711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1134FFBB22AEBA48003CE711 /* Pandemica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1134FFBD22AEBA48003CE711 /* Pandemica */ = {
+			isa = PBXGroup;
+			children = (
+				1134FFBE22AEBA48003CE711 /* AppDelegate.swift */,
+				1134FFC022AEBA48003CE711 /* ViewController.swift */,
+				1134FFC222AEBA48003CE711 /* Main.storyboard */,
+				1134FFC522AEBA49003CE711 /* Assets.xcassets */,
+				1134FFC722AEBA49003CE711 /* LaunchScreen.storyboard */,
+				1134FFCA22AEBA49003CE711 /* Info.plist */,
+				1134FFD222AEF1BC003CE711 /* SecondPage.swift */,
+				115D865422BBE7F90093D3E1 /* ThirdPage.swift */,
+			);
+			path = Pandemica;
+			sourceTree = "<group>";
+		};
+		D967F08C75FB4414D2A4DE98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D90A9B3105A6B669DA0C7AB /* Pods_Pandemica.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69121695010BDB585628BBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAA9ABD60169D49EC9696F12 /* Pods-Pandemica.debug.xcconfig */,
+				C8BD4D00A6D282CD8966EA06 /* Pods-Pandemica.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1134FFBA22AEBA48003CE711 /* Pandemica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1134FFCD22AEBA49003CE711 /* Build configuration list for PBXNativeTarget "Pandemica" */;
+			buildPhases = (
+				9CF5CDA02A63A7E330794914 /* [CP] Check Pods Manifest.lock */,
+				1134FFB722AEBA48003CE711 /* Sources */,
+				1134FFB822AEBA48003CE711 /* Frameworks */,
+				1134FFB922AEBA48003CE711 /* Resources */,
+				96476E22E47A4AE6251C3F97 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pandemica;
+			productName = Pandemica;
+			productReference = 1134FFBB22AEBA48003CE711 /* Pandemica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1134FFB322AEBA48003CE711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Enzhe Lu";
+				TargetAttributes = {
+					1134FFBA22AEBA48003CE711 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1134FFB622AEBA48003CE711 /* Build configuration list for PBXProject "Pandemica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1134FFB222AEBA48003CE711;
+			productRefGroup = 1134FFBC22AEBA48003CE711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1134FFBA22AEBA48003CE711 /* Pandemica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1134FFB922AEBA48003CE711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1134FFC922AEBA49003CE711 /* LaunchScreen.storyboard in Resources */,
+				1134FFC622AEBA49003CE711 /* Assets.xcassets in Resources */,
+				11C0EA3022BBE22500DD2219 /* Podfile in Resources */,
+				1134FFC422AEBA48003CE711 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96476E22E47A4AE6251C3F97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pandemica/Pods-Pandemica-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pandemica/Pods-Pandemica-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pandemica/Pods-Pandemica-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF5CDA02A63A7E330794914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pandemica-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1134FFB722AEBA48003CE711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1134FFC122AEBA48003CE711 /* ViewController.swift in Sources */,
+				1134FFBF22AEBA48003CE711 /* AppDelegate.swift in Sources */,
+				115D865522BBE7F90093D3E1 /* ThirdPage.swift in Sources */,
+				1134FFD322AEF1BC003CE711 /* SecondPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1134FFC222AEBA48003CE711 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1134FFC322AEBA48003CE711 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1134FFC722AEBA49003CE711 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1134FFC822AEBA49003CE711 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1134FFCB22AEBA49003CE711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1134FFCC22AEBA49003CE711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1134FFCE22AEBA49003CE711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA9ABD60169D49EC9696F12 /* Pods-Pandemica.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R422FL7C6R;
+				INFOPLIST_FILE = Pandemica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enzhelu.Pandemica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1134FFCF22AEBA49003CE711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BD4D00A6D282CD8966EA06 /* Pods-Pandemica.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R422FL7C6R;
+				INFOPLIST_FILE = Pandemica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enzhelu.Pandemica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1134FFB622AEBA48003CE711 /* Build configuration list for PBXProject "Pandemica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1134FFCB22AEBA49003CE711 /* Debug */,
+				1134FFCC22AEBA49003CE711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1134FFCD22AEBA49003CE711 /* Build configuration list for PBXNativeTarget "Pandemica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1134FFCE22AEBA49003CE711 /* Debug */,
+				1134FFCF22AEBA49003CE711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1134FFB322AEBA48003CE711 /* Project object */;
+}
